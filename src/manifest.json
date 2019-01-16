@@ -4,7 +4,11 @@
   "name": "Proxy Extension for Privacy",
   "short_name": "Web Proxy",
   "description": "For private browsing on the Internet.",
+  "icons": {
+    "128": "./icons/me.png"
+  },
   "browser_action": {
+    "default_icon": "icons/me.png",
     "default_popup": "index.html",
     "default_title": "Proxy Extension"
   },
