@@ -1,6 +1,6 @@
 const credentials = {
-  username: "username",
-  password: "password",
+  username: "new_user",
+  password: "new_password",
   host: "127.0.0.1"
 };
 const portName = "MVP-EXTENSION";
@@ -18,8 +18,8 @@ const sendState = () => {
 const connect = () => {
   const singleProxy = {
     host: credentials.host,
-    port: 89,
-    scheme: "https"
+    port: 3128,
+    scheme: "http"
   };
 
   const config = {
